@@ -30,6 +30,14 @@ Time Series → Computer Vision (GAF) → Reinforcement Learning (planned)
 
 ---
 
+## Recommended Reading
+
+**Start Here → [rasi_final_project_report.pdf](./rasi_final_project_report.pdf)**
+
+For a comprehensive overview of our capstone—including background, modeling logic, results, and final insights—we recommend reading the **final project report** before diving into the notebook or code.
+
+---
+
 ## Implementation Breakdown
 
 ### Cell 1: Initialization & Library Imports
