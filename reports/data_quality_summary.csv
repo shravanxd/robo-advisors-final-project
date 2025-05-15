@@ -1,0 +1,5 @@
+Ticker,file_path,initial_rows,rows_after_date_parsing,invalid_dates_dropped,numeric_conversion_errors,missing_values_dropped,duplicate_dates_dropped,future_dates_dropped,final_rows,start_date,end_date,perc_invalid_dates,perc_missing_dropped,perc_total_dropped_approx
+AAPL,/content/AAPL_ohlcv_raw.csv,3862,3862,0,0,0,0,0,3862,2010-01-04,2025-05-09,0.0,0.0,0.0
+MSFT,/content/MSFT_ohlcv_raw.csv,3862,3862,0,0,0,0,0,3862,2010-01-04,2025-05-09,0.0,0.0,0.0
+GOOGL,/content/GOOGL_ohlcv_raw.csv,3862,3862,0,0,0,0,0,3862,2010-01-04,2025-05-09,0.0,0.0,0.0
+SPY,/content/SPY_ohlcv_raw.csv,3862,3862,0,0,0,0,0,3862,2010-01-04,2025-05-09,0.0,0.0,0.0
