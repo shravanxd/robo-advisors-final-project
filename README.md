@@ -100,6 +100,20 @@ For a comprehensive overview of our capstone—including background, modeling lo
 - **Computer Vision** models achieved higher raw returns but were more volatile.
 - GOOGL and AAPL stood out for both pipelines.
 
+### Cell 8: Statistical Analysis
+| Metric          | CV Mean | TS Mean | Diff (%) | Better Model | Significant | Effect Size |
+| --------------- | ------- | ------- | -------- | ------------ | ----------- | ----------- |
+| Sharpe Ratio    | 0.86    | 1.33    | -35.6%   | TS           | No          | Large       |
+| Total Return    | 0.22    | 0.30    | -26.8%   | TS           | No          | Small       |
+| Win Rate        | 0.57    | 0.72    | -20.6%   | TS           | No          | Large       |
+| Max Drawdown    | -27.4%  | -7.8%   | -252.3%  | TS           | **Yes**     | Large       |
+| Composite Score | 0.53    | 0.80    | -33.7%   | TS           | **Yes**     | Very Large  |
+
+- Time Series models consistently outperformed Computer Vision models across all major trading metrics.
+= Max Drawdown and Composite Score differences were statistically significant.
+= CV models executed over 300% more trades, indicating higher churn but lower precision.
+
+TS models were more stable and effective at capital preservation, with fewer trades and higher quality signals.
 ---
 
 ## Conclusion & Future Work
@@ -109,6 +123,30 @@ For a comprehensive overview of our capstone—including background, modeling lo
   - Build a **Hybrid Ensemble** combining TS + CV strengths.
   - Add a **Reinforcement Learning (RL) Layer** to act on hybrid signals.
   - Explore dynamic regime switching based on confidence scores and market volatility.
+## Final Takeaway
+- Time Series models outperformed across all core metrics and showed stronger risk control.
+
+- Computer Vision models (e.g., GAF-based CNNs) showed promise in capturing high-return patterns but suffered from higher volatility and overtrading.
+
+- Results are based on a small sample (4 tickers) and should be treated as a baseline benchmark, not a definitive conclusion.
+
+- Statistical tests (t-test, Wilcoxon, Cohen’s d) validate the direction of performance differences.
+
+- Composite score design is subjective and may vary across portfolio objectives.
+
+- Hybrid models that ensemble CV and TS predictions offer a promising path forward, combining precision and pattern recognition.
+
+- Future enhancements:
+
+  - Stronger compute and training pipelines
+
+  - Better handling of overfitting and data leakage
+
+  - Reinforcement Learning layers to act on hybrid signals
+
+  - Regime switching logic to dynamically adapt to market conditions
+
+
 
 ---
 
