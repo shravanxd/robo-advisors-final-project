@@ -154,8 +154,6 @@ TS models were more stable and effective at capital preservation, with fewer tra
 For questions, collaborations, or feedback:
 
 - Shravan Khunti: [shravan.khunti@nyu.edu](mailto:shravan.khunti@nyu.edu)
-- Yash Jadhav: [yj3076@nyu.edu](mailto:yj3076@nyu.edu)
-
 ---
 
 > *This project is part of the NYU MSDS Capstone for "Robo Advisors & Systematic Trading" (Spring 2025). All results are for academic purposes and not intended as financial advice.*
