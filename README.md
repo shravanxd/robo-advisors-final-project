@@ -1,7 +1,6 @@
 # Can Computer Vision Models Generate Better Trading Signals than Time Series Models?
 
-**Shravan Khunti** (NetID: ssk10036)  
-**Yash Jadhav** (NetID: yj3076)  
+**Shravan Khunti** (NetID: ssk10036)   
 MS in Data Science, NYU Center for Data Science  
 Course: Robo Advisors & Systematic Trading  
 Professor: Vasant Dhar  
